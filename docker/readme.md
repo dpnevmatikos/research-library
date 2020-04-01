@@ -48,6 +48,9 @@ docker build --tag bulletinboard:1.0 .
 docker run --publish 8000:8080 --detach --name bb bulletinboard:1.0
 ```
 
+## .NET Development workflow for Docker apps
+1. [Development workflow for Docker apps](https://docs.microsoft.com/en-us/dotnet/architecture/microservices/docker-application-development-process/docker-app-development-workflow)
+
 ## Useful commands
 1. `docker image ls`: list available images
 1. `docker image rm <container's name or id>`: delete an image
