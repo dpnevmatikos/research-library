@@ -45,7 +45,8 @@ COPY . .
 docker build --tag bulletinboard:1.0 .
 ```
 
-2. Run the image as a container ([source](https://docs.docker.com/get-started/part2/#run-your-image-as-a-container)):
+3. Run the image as a container ([source](https://docs.docker.com/get-started/part2/#run-your-image-as-a-container)):
+
 ```docker
 docker run --publish 8000:8080 --detach --name bb bulletinboard:1.0
 ```
