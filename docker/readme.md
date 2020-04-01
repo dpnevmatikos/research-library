@@ -15,6 +15,7 @@ multiple commands to a single file ([source](https://docs.docker.com/compose/get
 ## Steps to render a Nodejs app
 
 1. Create a `container` with a `DockerFile` ([source](https://docs.docker.com/get-started/part2/#define-a-container-with-dockerfile)): 
+
 ```docker
 # Use the official image as a parent image
 FROM node:current-slim
@@ -38,7 +39,8 @@ CMD [ "npm", "start" ]
 COPY . .
 ```
 
-2. Build the image: 
+2. Build the image:
+
 ```docker
 docker build --tag bulletinboard:1.0 .
 ```
